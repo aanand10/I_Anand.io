@@ -143,21 +143,32 @@ button {
   border-radius: 25px;
   background: white;
   border: none;
-  background: linear-gradient(
+  /* background: linear-gradient(
     to right,
     rgb(17, 193, 232, 0.6),
     rgba(196, 113, 237, 0.445),
     rgb(246, 79, 89, 0.3)
   );
-  color: white;
+  color: white; */
+  background-image: repeating-linear-gradient(
+    -45deg,
+    #7bdff2 10px 30px,
+    #b2f7ef 30px 50px,
+    #eff7f6 50px 70px,
+    #f7d6e0 70px 90px,
+    #f2b5d4 90px 110px
+  );
+  color: rgb(0, 0, 0);
   box-shadow: 7px 5px 10px rgb(2 2 2 / 35%);
 }
-
+button:hover {
+  background-position: 20% center;
+}
 .social-pc {
   display: none;
 }
 .social-mobile {
-  margin: 15px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
 }
 
 .social-mobile {

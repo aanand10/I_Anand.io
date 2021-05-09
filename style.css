@@ -22,7 +22,7 @@ body {
       to right,
       rgb(17, 193, 232, 0.3),
       rgba(196, 113, 237, 0.35),
-      rgb(246, 79, 89, 0.5)
+      rgb(246, 79, 89, 0.6)
     ),
     url("images/background1.jpg");
   /* width: 80%; */
@@ -167,15 +167,28 @@ button {
   background: white;
   border: none;
   box-shadow: 7px 5px 10px rgb(2 2 2 / 35%);
+  background-image: repeating-linear-gradient(
+    -45deg,
+    #7bdff2 10px 30px,
+    #b2f7ef 30px 50px,
+    #eff7f6 50px 70px,
+    #f7d6e0 70px 90px,
+    #f2b5d4 90px 110px
+  );
+  color: rgb(0, 0, 0);
+  transition: all 0.5s;
 }
 button:hover {
-  background: linear-gradient(
+  /* background: linear-gradient(
     to right,
     rgb(17, 193, 232, 0.52),
     rgba(196, 113, 237, 0.52),
     rgb(246, 79, 89, 0.52)
   );
-  color: white;
+  color: white; */
+  background-color: brown;
+  /* background-position: right center; */
+  /* background-position: 20% center; */
 }
 
 .web-dev-word:hover {
@@ -233,8 +246,11 @@ section::after {
   height: 250px;
   background: linear-gradient(#ff2871, rgba(255, 40, 113, 0.2));
   border-radius: 50%;
-  transform: translate(192px, 174px);
+  /* transform: translate(192px, 174px); */
+  transform: translate(193px, 207px);
+  /* backdrop-filter: blur(225px); */
 }
+
 .container {
   display: flex;
   /* flex-direction: column; */
@@ -260,7 +276,7 @@ section h1 {
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-right: 1px solid rgba(255, 255, 255, 0.1);
   border-left: 1px solid rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(25px);
+  backdrop-filter: blur(20px);
   border-radius: 10px;
   display: flex;
   justify-content: center;
