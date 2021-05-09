@@ -145,9 +145,9 @@ button {
   border: none;
   background: linear-gradient(
     to right,
-    rgb(17, 193, 232, 0.3),
-    rgba(196, 113, 237, 0.4),
-    rgb(246, 79, 89, 0.5)
+    rgb(17, 193, 232, 0.6),
+    rgba(196, 113, 237, 0.445),
+    rgb(246, 79, 89, 0.3)
   );
   color: white;
   box-shadow: 7px 5px 10px rgb(2 2 2 / 35%);
