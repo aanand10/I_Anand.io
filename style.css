@@ -20,7 +20,7 @@ body {
       rgba(196, 113, 237, 0.65),
       rgb(246, 79, 89, 0.75)
     ),
-    url("/Web Dev/images/paul-earle-xJ2tjuUHD9M-unsplash.jpg");
+    url("images/background1.jpg");
   /* width: 80%; */
   /* height: 400px; */
   background-size: cover;
