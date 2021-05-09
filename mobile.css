@@ -134,10 +134,51 @@ hr {
   margin: 0px 15px 25px 0px;
   text-align: center;
 }
-.social {
-  margin: 12px 0px;
+button {
+  margin: 15px 0px 10px 0px;
+  letter-spacing: 1px;
+  font-size: 17px;
+  height: 45px;
+  width: 150px;
+  border-radius: 25px;
+  background: white;
+  border: none;
+  background: linear-gradient(
+    to right,
+    rgb(17, 193, 232, 0.3),
+    rgba(196, 113, 237, 0.4),
+    rgb(246, 79, 89, 0.5)
+  );
+  color: white;
+  box-shadow: 7px 5px 10px rgb(2 2 2 / 35%);
 }
 
+.social-pc {
+  display: none;
+}
+.social-mobile {
+  margin: 15px 0px 0px 0px;
+}
+
+.social-mobile {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-mobile li {
+  padding-right: 20px;
+}
+.social-mobile li img {
+  width: 30px;
+  opacity: 70%;
+  filter: grayscale(100%);
+}
+.social-mobile li .fa {
+  width: 30px;
+  font-size: 30px;
+  opacity: 70%;
+}
 .home-text {
   display: none;
 }
