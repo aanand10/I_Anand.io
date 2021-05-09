@@ -1,0 +1,185 @@
+/*!! import section  */
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap");
+
+/*?? style section   */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-image: linear-gradient(
+      to right,
+      rgb(17, 193, 232, 0.6),
+      rgba(196, 113, 237, 0.65),
+      rgb(246, 79, 89, 0.75)
+    ),
+    url("/Web Dev/images/paul-earle-xJ2tjuUHD9M-unsplash.jpg");
+  /* width: 80%; */
+  /* height: 400px; */
+  background-size: cover;
+  color: white;
+  /* padding: 20px; */
+  padding: 0px;
+  margin: 0px;
+}
+.main-box-pc {
+  display: none;
+}
+.main-box-mobile {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px;
+  padding: 0px 15px;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
+  /* height: 100vh; */
+  width: 100%;
+  text-align: left;
+}
+
+.main-box::before {
+  content: "";
+}
+/*?? image style  */
+.photo {
+  width: 170px;
+  height: 170px;
+  margin-left: -212px;
+  /* margin-left: 100px; */
+  /* border-radius: 50%; */
+  box-shadow: 7px 5px 10px rgb(2 2 2 / 35%);
+  display: none;
+}
+.photo-mobile {
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  margin-left: -212px;
+  margin: auto;
+  display: block;
+  /* margin-left: 100px; */
+  /* border-radius: 50%; */
+  box-shadow: 7px 5px 10px rgb(2 2 2 / 35%);
+}
+.title {
+  display: none;
+}
+.title-mobile {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 45px;
+  color: white;
+}
+.subtitle {
+  font-size: 1.7rem;
+  color: rgb(255, 255, 0);
+  letter-spacing: 2px;
+  margin: -2px 0px 15px 0px;
+}
+
+hr {
+  display: block;
+  margin: auto;
+}
+.description {
+  display: none;
+}
+.description-mobile {
+  font-weight: 200;
+  margin: 15px 0px 15px 0px;
+  /* font-size: 17px; */
+  font-size: 1.55rem;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  overflow: auto;
+}
+
+.info-box {
+  width: auto;
+  margin: 25px 15px 25px 0px;
+}
+
+.home-text {
+  display: none;
+}
+.social {
+  /* margin: auto; */
+  /* display: block; */
+}
+/* ?? About section style  */
+section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  padding: 25px 0px 25px 0px;
+}
+section h1 {
+  color: gray;
+  font-size: 2.5rem;
+}
+.box {
+  position: relative;
+  margin: 20px 0px 20px 0px;
+  width: 300px;
+  height: 300px;
+  background: rgb(255, 255, 255, 0.1);
+  z-index: 1;
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(25px);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+section h1 {
+  text-align: center;
+  /* font-family: "Playfair Display SC", serif; */
+  color: rgb(0, 0, 0);
+  font-size: 4.5rem;
+  z-index: 1;
+  margin: 0px 0px 25px 0px;
+  word-spacing: 2px;
+  text-shadow: 12px 6px 011px rgba(0, 0, 0, 0.35);
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section::before {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(#f3f5f5, #9c27b0);
+  border-radius: 50%;
+  transform: translate(-187px, -166px);
+}
+
+section::after {
+  content: "";
+  position: absolute;
+
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(#ff2871, rgba(255, 40, 113, 0.2));
+  border-radius: 50%;
+  transform: translate(150px, 150px);
+}
