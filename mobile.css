@@ -29,6 +29,7 @@ body {
 }
 .front {
   overflow-x: hidden !important;
+  max-height: 100vh;
   max-width: 100%;
   background-image: linear-gradient(
       to top,
@@ -78,7 +79,8 @@ body {
   width: 180px;
   height: 180px;
   /* margin-left: -212px; */
-  margin: auto;
+  /* margin: auto; */
+  margin: 0px 0px 10px 0px;
   display: block;
   /* margin-left: 100px; */
   /* border-radius: 50%; */
@@ -87,17 +89,26 @@ body {
 .title {
   display: none;
 }
+.name {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: "Abril Fatface", cursive;
+}
+.web-dev-word {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
 .title-mobile {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: 300;
   line-height: 45px;
   color: white;
 }
 .subtitle {
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   color: rgb(255, 255, 0);
   letter-spacing: 2px;
-  margin: -2px 0px 15px 0px;
+  margin: -2px 0px 10px 0px;
 }
 
 hr {
@@ -109,7 +120,7 @@ hr {
 }
 .description-mobile {
   font-weight: 200;
-  margin: 15px 0px 15px 0px;
+  margin: 10px 0px 10px 0px;
   /* font-size: 17px; */
   font-size: 1.55rem;
   word-spacing: 1px;

@@ -97,6 +97,17 @@ nav #home {
   letter-spacing: 2px;
   margin: -2px 0px 25px 0px;
 }
+.name:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
 
 hr {
   width: 100px;
@@ -164,7 +175,7 @@ button:hover {
   color: white;
 }
 
-span:hover {
+.web-dev-word:hover {
   background: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
 }
