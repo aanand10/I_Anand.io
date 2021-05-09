@@ -10,20 +10,33 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
       to right,
-      rgb(17, 193, 232, 0.6),
-      rgba(196, 113, 237, 0.65),
-      rgb(246, 79, 89, 0.75)
+      rgb(17, 193, 232, 0.5),
+      rgba(196, 113, 237, 0.55),
+      rgb(246, 79, 89, 0.65)
     ),
-    url("/Web Dev/images/paul-earle-xJ2tjuUHD9M-unsplash.jpg");
+    url("images/background1.jpg"); */
+  /* width: 80%; */
+  /* height: 400px; */
+  /* background-size: cover; */
+  /* color: white; */
+  /* padding: 20px; */
+  padding: 0px;
+  margin: 0px;
+}
+.front {
+  background-image: linear-gradient(
+      to top,
+      rgb(17, 193, 232, 0.2),
+      rgba(196, 113, 237, 0.32),
+      rgb(246, 79, 89, 0.5)
+    ),
+    url("images/background1.jpg");
   /* width: 80%; */
   /* height: 400px; */
   background-size: cover;
   color: white;
-  /* padding: 20px; */
-  padding: 0px;
-  margin: 0px;
 }
 .main-box-pc {
   display: none;
@@ -93,9 +106,10 @@ hr {
   margin: 15px 0px 15px 0px;
   /* font-size: 17px; */
   font-size: 1.55rem;
-  word-spacing: 2px;
+  word-spacing: 1px;
   letter-spacing: 1px;
   overflow: auto;
+  text-align: left;
 }
 
 .info-box {
