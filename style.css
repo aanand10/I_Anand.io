@@ -30,30 +30,6 @@ body {
   background-size: cover;
   color: white;
 }
-nav {
-  /* position: absolute; */
-  /* float: left; */
-  /* left: -165px; */
-  /* top: 70%; */
-  /* transform: rotate(270deg); */
-  margin: auto;
-  display: flex;
-  margin-top: 5px;
-  font-size: 25px;
-  letter-spacing: 1px;
-}
-nav ul {
-  list-style: none;
-  display: flex;
-}
-nav ul li {
-  margin-left: 30px;
-  letter-spacing: 2px;
-}
-nav #home {
-  background: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-}
 
 .main-box {
   display: flex;
