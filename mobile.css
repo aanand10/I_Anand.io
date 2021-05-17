@@ -378,7 +378,7 @@ section::after {
   border-right: 30px solid transparent;
   border-bottom: 60px solid rgb(255 140 91 / 93%);
   position: absolute;
-  transform: translate(179px, -259px);
+  transform: translate(164px, -196px);
 }
 .triangle-2 {
   width: 0;
@@ -388,7 +388,7 @@ section::after {
   border-bottom: 60px solid rgb(255 214 0);
   position: absolute;
 
-  transform: translate(-110px, 213px);
+  transform: translate(-89px, 211px);
 }
 .triangle-3 {
   width: 0;
@@ -397,5 +397,5 @@ section::after {
   border-right: 20px solid transparent;
   border-bottom: 40px solid #379ad6;
   position: absolute;
-  transform: translate(-162px, 121px);
+  transform: translate(-8px, 11px);
 }
