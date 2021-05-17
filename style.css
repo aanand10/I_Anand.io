@@ -359,6 +359,7 @@ section h1 {
   border-right: 30px solid transparent;
   border-bottom: 60px solid rgb(255 140 91 / 93%);
   position: absolute;
+
   transform: translate(-83px, 298px);
 }
 .triangle-2 {
@@ -368,6 +369,7 @@ section h1 {
   border-right: 30px solid transparent;
   border-bottom: 60px solid rgb(255 214 0);
   position: absolute;
+
   transform: translate(443px, -16px);
 }
 .triangle-3 {
@@ -377,6 +379,7 @@ section h1 {
   border-right: 20px solid transparent;
   border-bottom: 40px solid #379ad6;
   position: absolute;
+
   transform: translate(93px, -215px);
 }
 

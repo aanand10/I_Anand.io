@@ -34,6 +34,7 @@ main {
 
 .navbar {
   position: fixed;
+
   /* background-color: var(--bg-primary); */
   background: rgb(255, 255, 255, 0.1);
   /* z-index: 1; */
@@ -125,6 +126,7 @@ main {
   margin-bottom: 1rem;
   text-align: center;
   color: var(--text-secondary);
+
   background: rgba(0, 0, 0, 0.24);
   box-shadow: 0 25px 45px rgba(0, 0, 0, 0.25);
   border: 1px solid rgba(255, 255, 255, 0.25);
@@ -132,6 +134,7 @@ main {
   border-left: 1px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(20px);
   border-radius: 5px;
+
   font-size: 1.5rem;
   letter-spacing: 0.3ch;
   width: 100%;
