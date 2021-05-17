@@ -35,7 +35,7 @@ body {
 
 .main-box {
   display: flex;
-  margin: 0px;
+  margin: 0px 2rem 0px 7rem;
   padding: 0px;
   align-items: center;
   justify-content: center;
@@ -231,7 +231,10 @@ button:hover {
   background-color: white;
   color: rgb(0, 0, 0);
 }
-
+.scroll-down {
+  position: relative;
+  transform: translate(100px, 100px);
+}
 .main-box::before {
   content: "";
   position: absolute;
