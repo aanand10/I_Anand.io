@@ -367,7 +367,7 @@ section::after {
   border-right: 30px solid transparent;
   border-bottom: 60px solid rgb(255 140 91 / 93%);
   position: absolute;
-  transform: translate(146px, -433px);
+  transform: translate(179px, -259px);
 }
 .triangle-2 {
   width: 0;
